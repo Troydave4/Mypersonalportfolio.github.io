@@ -366,6 +366,10 @@ span{
 .testimonial-item p{
     font-size: 1.3rem;
 }
+.testimonials-box .btn {
+    margin-top: 5rem;
+}
+
 .star {
     color: gold; 
     font-size: 2rem; 

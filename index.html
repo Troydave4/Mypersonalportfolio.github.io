@@ -103,7 +103,7 @@
             <div class="portfolio-layer">
                 <h4>Email Marketing</h4>
                 <p>Attract customers, boost sales, and build relationships.</p>
-                <a href="https://drive.google.com/drive/folders/1R9fAlwcytSBW3NMMTSSEtNOG6m-3NUSC?usp=sharing"><i class="fa-solid fa-up-right-from-square"></i></a>
+                <a href="https://drive.google.com/drive/folders/1HEmjAYqD29N3Tafp9NHlIcx5D-OKR61L?usp=sharing"><i class="fa-solid fa-up-right-from-square"></i></a>
             </div>
         </div>
 
@@ -222,27 +222,6 @@
 <script src="main.js"></script>
 
 <script src="https://smtpjs.com/v3/smtp.js"></script>
-<script>
-    function sendEmail(){
-        Email.send({
-    Host : "smtp.gmail.com",
-    Username : "",
-    Password : "",
-    To : 'minatonamekaze906@gmail.com',
-    From : document.getElementById("email").value,
-    Subject : "New Contact Form Enquiry",
-    Body : "Name: " + document.getElementById("name").value
-        + "<br> Email: " + document.getElementById("email").value
-        + "<br> Phone no: " + document.getElementById("phone").value
-        + "<br> Subject: " + document.getElementById("subject").value
-        + "<br> Message: " + document.getElementById("message").value
-}).then(
-  message => alert("Message Sent Successfully")
-);
-    }
-</script>
-
-
 
 </body>
 </html>
